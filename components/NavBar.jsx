@@ -34,7 +34,7 @@ export default function Navbar() {
 
         <a href="/atlas">
              <Image
-            src="/images/Footer/logo1.png"  // Replace with your logo path
+            src="/images/Footer/Logo1.png"  // Replace with your logo path
             alt="Atlas,Velascosa Logo"
             width={40}
             height={40}
