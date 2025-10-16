@@ -1,4 +1,6 @@
+import { Fullscreen } from "@mui/icons-material";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 
 const scrollFadeUp = {
@@ -13,35 +15,31 @@ export default function IntroSection() {
 <section>
       
 {/* Texto intro*/}
-      <motion.section {...scrollFadeUp} className="pl-4 mb-20 text-md">
+      <motion.section {...scrollFadeUp} className="h-screen pr-10 mt-30 mb-20 text-md">
+
+      {/* Columnas*/} 
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-0">
 
       {/* Columna 1*/} 
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-8 border-t-2 border-blue-700 max-h-min pt-5">
-        <div className="place-content-center">
-        <h1 className="font-bold text-8xl text-blue-700">Gráfica web_ Diseño web + ilustración</h1>
-        </div>
+      <div>
+      </div>
+
 
       {/* Columna 2*/} 
-        <div className="place-content-between">
-        <p className="pt-2 text-md font-semibold">Diseñamos páginas web. Por ende, 
-          creamos espacios para que las personas y marcas se expresen y se comuniquen con el mundo.
-          Estámos enfocados en la web no convencional. Hoy en día, tener una página web no es difícil. 
-          Pero tener una única, que resalte, y exprese realmente una identidad, sí. 
-          La web se ha vuelto un medio donde la estandarización ha hecho 
-          que todo se comience a ver igual. Estámos aquí para acabar con ese problema. 
-        </p>
-        </div>
+        <div className="place-content-center w-3/4 border-t-2 border-dashed pt-5">
+          <h1 className="text-4xl"><span className="animate-pulse cursor-help hover:animate-none brightness-125">#NoMásTemplates</span> <br></br>Diseño web + Storytelling</h1>
+          <br></br>
+          <p className="cursor-vertical-text">Hoy en día, tener una página web no es difícil. Pero tener una única, que resalte, y exprese realmente una identidad, sí. La web se ha vuelto un medio donde la estandarización ha hecho que todo se comience a ver igual. Estámos aquí para acabar con ese problema.</p>
+          <br></br>
+          <p className="cursor-vertical-text">Hemos trabajado con compañias, creativos, escritores y diseñadores que han buscado dejar una marca diferente en la web. Nuestro trabajo es utilizar este medio a su máximo potencial para crear algo único que aporte valor.</p>
 
-      {/* Columna 3*/} 
-        <div className="place-content-center">
-        <p className="pt-2 text-md font-semibold">Hemos trabajado con compañias, con creativos, con escritores y con diseñadores que han buscado dejar una marca diferente
-          en la web. Nuestro trabajo es utilizar este medio como algo que le aporte al contenido, y a la marca.
-          </p>
         </div>
 
       </div>
-      </motion.section>
 
+    
+
+      </motion.section>
 </section>
     );
 }

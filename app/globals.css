@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: transparent;
-  --foreground: #000000;
+  --background: #2f2f2f;
+  --foreground: #00FF00;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-domine: var(--font-domine);
@@ -13,13 +13,20 @@ html {
 }
 
 body {
-  background-color: transparent !important;
+  background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif, var(--font-domine), serif;
 }
 
-a:hover {
-  text-decoration: underline;
+
+@keyframes marquee {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
 }
 
+.animate-marquee {
+  display: inline-block;
+  min-width: 50%;
+  animation: marquee 100s linear infinite;
+}
 

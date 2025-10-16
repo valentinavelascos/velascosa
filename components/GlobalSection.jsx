@@ -9,18 +9,17 @@ const scrollFadeUp = {
   viewport: { once: false, amount: 0.3 }
 };
 
-export default function HumbertoSection() {
+export default function GlobalSection() {
   const [isHovered, setIsHovered] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [imageIndex, setImageIndex] = useState(0);
 
   // Your 5 images (add your actual image paths here)
   const images = [
-    "/images/humberto/1.png",
-    "/images/humberto/2.png",
-    "/images/humberto/3.png",
-    "/images/humberto/4.png",
-    "/images/humberto/5.png",
+    "/images/global/1.png",
+    "/images/global/2.png",
+    "/images/global/3.png",
+    "/images/global/4.png",
   ];
 
   // Mouse move tracking
@@ -85,22 +84,18 @@ export default function HumbertoSection() {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-8">
         <div>
           <h1 className="text-2xl relative z-10 text-white mix-blend-difference">
-          Cliente_ <a className="cursor-pointer">Humberto Polar</a> 
+          Cliente_ <a className="cursor-pointer">Global Circuit</a> 
           <br></br>
           Web + Identidad gráfica
           </h1>
         </div>
         <div>
           <p className="pt-2 text-md text-white">
-            Junto con Humberto {' ('}artista, publicista, músico...{') '} radicado en México, 
-            trabajamos para construir su mundo digital. Él tenía un problema común: 
-            una gran cantidad de contenido que
-            era difícil de organizar en una página web tradicional.
+            Insertar aquuí descripción del proyecto Global Circuit.
           </p>
           <br></br>
           <p className="text-md">
-            Se trabajó para que la página no solo mostrara su trabajo sino que
-            fuera una expansión de su marca.
+            highlight del trabajo con Global Circuit
           </p>
         </div>
         <div className="place-content-center">

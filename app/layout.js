@@ -3,7 +3,7 @@
 import { Geist, Geist_Mono, Domine } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-import FooterSection from "@/components/FooterSection"; 
+// import FooterSection from "@/components/FooterSection"; 
 import Navbar from "@/components/NavBar";
 
 const geistSans = Geist({
@@ -25,7 +25,7 @@ export const metadata = {
   title: "Velascosa",
   description: "Hacemos páginas web no convencionales",
   icons: {
-    icon: "/favicon1.png",
+    icon: "/images/AtlasLogo.jpeg",
   }
 };
 
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} ${getDomine.variable} antialiased text-gray-900`}>
       <Navbar />
         <main className="p-6">{children}</main>
-      <FooterSection />
+        {/* <FooterSection /> */ }
       </body>
     </html>
   );

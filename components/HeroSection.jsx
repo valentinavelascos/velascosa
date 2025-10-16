@@ -13,18 +13,20 @@ const scrollFadeUp = {
 };
 
 const images = [
-  "/images/Hero/1.jpg",
-  "/images/Hero/2.jpg",
-  "/images/Hero/3.jpeg",
-  "/images/Hero/4.jpg",
-  "/images/Hero/1.jpg",
-  "/images/Hero/2.jpg",
+  "/images/Hero/1.png",
+  "/images/Hero/2.png",
+  "/images/Hero/3.png",
+  "/images/Hero/4.png",
+  "/images/Hero/5.png",
+  "/images/Hero/6.png",
+  "/images/Hero/7.png",
+  "/images/Hero/8.png",
 ];
 
 function getRandomCoords () {
   return {
     top: `${Math.random() * 90}vh`,
-    left: `${Math.random() * 90}vw`,
+    left: `${30 + Math.random() * 60}vw`,
   };
 }
 
@@ -48,11 +50,11 @@ export default function HeroSection () {
     {images.map((src, index) => (
       <motion.div
           key={index}
-          className="absolute mix-blend-multiply opacity-90 pointer-events-none transition-all"
+          className="absolute mix-blend-difference opacity-100 pointer-events-none transition-all"
           animate={positions[index]}
           transition={{ duration: 7, ease: "easeInOut" }}
         >
-        <Image src={src} alt={`bg-${index}`} width={180} height={180} />
+        <Image src={src} alt={`bg-${index}`} width={400} height={180} />
         </motion.div>
     ))}
  
@@ -62,17 +64,20 @@ export default function HeroSection () {
   
   {/* Columna 1*/} 
     <div 
-    className="relative h-8 text-7xl font-semibold pt-50 hover:text-blue-700">
-      <p> Agencia especializada en Diseño y Desarrollo Web, Ilustración y Storytelling.</p>
+    className="fixed h-8 text-md max-w-100 pt-40 pl-10">
+      <p className="cursor-vertical-text"> <strong>Diseñamos</strong> y <strong>desarrollamos</strong> páginas web no convencionales.</p>
+      <br></br>
+      <p className="cursor-vertical-text">La página web como medio visual, textual y comunicacional.</p>
+      <br></br>
+      <p className="cursor-vertical-text">Trabajamos con clientes de diversas industrias, desde desarrollos inmobiliarios a portafolios de diseño y arte. Con clientes ubicados en Colombia, Perú, México, Canadá, y Costa Rica.</p>
+      <br></br>
+      <p>Contáctanos:</p>
+      <a href="https://www.instagram.com/velascosa__/" target="blank" className="uppercase underline cursor-alias">Instagram</a>
     </div>
 
-{/* Columna 2*/} 
-    <div className="relative h-8 text-6xl pt-20 font-semibold hover:text-white">
-    <p> Velascosa_ Bogotá, Colombia.</p>
-    </div>
+{/* Columna 2 - vacía*/} 
   </div>
     </section>
-
     );
 }
 
