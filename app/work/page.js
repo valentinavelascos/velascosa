@@ -26,7 +26,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div className="border-dashed border-b-2 mt-10 pb-30">
+      <div className="border-dashed border-b-2 mt-10 pb-30 mix-blend-difference">
         <img src="/images/AtlasBlanco.png" alt="Atlas trabajando" className="w-40 translate-y-70"/>
         <h1 className="text-4xl">Nuestro Trabajo</h1>
         <p className="w-180">Para nosotros, el trabajo es encontrar la historia única del cliente y contarla de la mejor manera posible. Empezamos en el 2025 y ya hemos trabajado con clientes en Colombia, México y Canadá en todo tipo de industrias.</p> 

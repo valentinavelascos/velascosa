@@ -67,11 +67,11 @@ export default function HeroSection () {
     className="fixed h-8 text-md max-w-100 pt-40 pl-10">
       <p className="cursor-vertical-text"> <strong>Diseñamos</strong> y <strong>desarrollamos</strong> páginas web no convencionales.</p>
       <br></br>
-      <p className="cursor-vertical-text">La página web como medio visual, textual y comunicacional.</p>
+      <p className="cursor-vertical-text">La página web como medio visual, textual y de comunicación.</p>
       <br></br>
       <p className="cursor-vertical-text">Trabajamos con clientes de diversas industrias, desde desarrollos inmobiliarios a portafolios de diseño y arte. Con clientes ubicados en Colombia, Perú, México, Canadá, y Costa Rica.</p>
       <br></br>
-      <p>Contáctanos:</p>
+      <p>Contactanos:</p>
       <a href="https://www.instagram.com/velascosa__/" target="blank" className="uppercase underline cursor-alias">Instagram</a>
     </div>
 

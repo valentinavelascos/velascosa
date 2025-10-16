@@ -26,7 +26,7 @@ const trabajos = [
         image: "/images/sieteLomas/4.png",
         tag: ["Experiencia digital", "Identidad visual"],
         client: "Siete Lomas",
-        description: "Mostrar a través de la página por qué Siete Lomas es más que solo una casa en Costa Rica.",
+        description: "Una página que muestra por qué Siete Lomas es más que solo una casa en Costa Rica.",
         slug: "siete-lomas"
       },
 
@@ -36,7 +36,7 @@ const trabajos = [
         image: "/images/jorgeOrlando/1.png",
         tag: "Identidad visual",
         client: "Jorge Orlando Melo",
-        description: "De manera simple, añadir una identidad visual a historias. ",
+        description: "Una identidad visual que refleje un país con tanta diversidad como su historia.",
         slug: "jorge-orlando-melo"
       },
 

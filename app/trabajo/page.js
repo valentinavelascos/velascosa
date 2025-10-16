@@ -104,7 +104,7 @@ export default function Home() {
         </motion.div>
       )}
        
-        <div className="pb-5 pr-5">
+        <div className="pb-5 pr-5 mix-blend-difference">
          <h1 className="mb-5 text-4xl">Nuestro trabajo_</h1>
          <p className="w-180">Para nosotros, el trabajo es encontrar la historia única del cliente y contarla de la mejor manera posible. Empezamos en el 2025 y ya hemos trabajado con clientes en Colombia, Perú, México, Costa Rica y Canadá en todo tipo de industrias.</p>
          <img src="/images/AtlasBlanco.png" alt="Atlas trabajando" className="w-40 translate-y-15" />
