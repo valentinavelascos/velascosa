@@ -29,7 +29,7 @@ export default function IntroSection() {
           <br></br>
           <p className="cursor-vertical-text">Hoy en día, tener una página web no es difícil. Pero sí lo es tener una única, que resalte y exprese realmente una identidad. La web se ha vuelto un medio donde la estandarización ha hecho que todo se vea igual. Estamos aquí para acabar con ese problema.</p>
           <br></br>
-          <p className="cursor-vertical-text">Hemos trabajado con compañias, creativos, escritores y diseñadores que han buscado dejar una marca diferente en la web. Nuestro trabajo es utilizar este medio en su máximo potencial para crear algo único que aporte valor.</p>
+          <p className="cursor-vertical-text">Hemos trabajado con compañías, creativos, escritores y diseñadores que han buscado dejar una marca diferente en la web. Nuestro trabajo es utilizar este medio en su máximo potencial para crear algo único que aporte valor.</p>
 
         </div>
 

@@ -59,7 +59,7 @@ export default function Home() {
           Mmm... parece que Atlas se está quedando dormido.
           <br></br>Este es un gran momento para explorar los otros Atlas... 
          </motion.h1>
-         <motion.h1 className="mt-3">...O ponte en <a href="https://www.instagram.com/velascosa__/" className="underline cursor-alias">contacto</a> con nosotros.</motion.h1>
+         <motion.h1 className="mt-3">...O ponerse en <a href="https://www.instagram.com/velascosa__/" className="underline cursor-alias">contacto</a> con nosotros.</motion.h1>
          </div>
 
     </div>
