@@ -5,6 +5,9 @@ import "./globals.css";
 import Link from "next/link";
 // import FooterSection from "@/components/FooterSection"; 
 import Navbar from "@/components/NavBar";
+//import Vercel analytics 
+
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
