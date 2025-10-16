@@ -1,6 +1,4 @@
-import { Fullscreen } from "@mui/icons-material";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 
 const scrollFadeUp = {
@@ -36,9 +34,6 @@ export default function IntroSection() {
         </div>
 
       </div>
-
-    
-
       </motion.section>
 </section>
     );
