@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "work": "Trabajo",
+    "contact": "Contacto"
+  },
+
+  "hero": {
+    "title": "Creando páginas web únicas y memorables",
+    "subtitle": "Agencia de diseño web en Bogotá, Colombia",
+    "text": "Si gustas, mueve el mouse",
+
+    "aboutUsCards": [
+      {
+        "id": 1,
+        "text": "Bienvenido a Velascosa"
+      },
+      {
+        "id": 2,
+        "text": "Hemos trabajado con clientes en más de 5 países..."
+      },
+      {
+        "id": 3,
+        "text": "De varias industrias incluyendo: bienes raíces, tecnología, arte, entre otras."
+      },
+      {
+        "id": 4,
+        "text": "¡Eso es bastante considerando que apenas empezamos en 2025!"
+      }
+    ],
+
+    "weMakeGreatCards": [
+      {
+        "id": 5,
+        "text": "Somos un equipo pequeño que trabaja en estrecha colaboración con cada cliente para dar vida a su historia única."
+      },
+      {
+        "id": 6,
+        "text": "Hacer sitios web para otros no es solo nuestra pasión, sino también una necesidad que vemos en el mundo digital."
+      },
+      {
+        "id": 7,
+        "text": "Los grandes sitios web surgen de la disposición a probar algo nuevo y salir del molde."
+      },
+      {
+        "id": 8,
+        "text": "El diseño web puede elevar tu presencia digital y hacer que tu identidad sea más memorable y completa."
+      },
+      {
+        "id": 9,
+        "text": "Los sitios web de hoy se parecen cada vez más debido al auge de las plantillas tipo cookie cutter. Nos esforzamos por la originalidad."
+      }
+    ]
+  },
+
+  "work": {
+    "title": "Una página web no es solo una página web, es una apertura a tu historia.",
+
+    "workCards": [
+      {
+        "id": 10,
+        "text": "Y nuestro trabajo en progreso"
+      },
+      {
+        "id": 11,
+        "text": "humbertopolar.com"
+      },
+      {
+        "id": 12,
+        "text": "*EN PROGRESO* Global Circuit"
+      },
+      {
+        "id": 13,
+        "text": "jorgeorlandomelo.com"
+      },
+      {
+        "id": 14,
+        "text": "*EN PROGRESO* Siete Lomas"
+      }
+    ]
+  },
+
+  "services": {
+    "title": "Nuestros servicios son",
+    "subtitle": "Estamos aquí para facilitar el camino digital",
+
+    "services1Cards": [
+      {
+        "id": 15,
+        "text": "Construcción de páginas web: Creamos tu página ideal desde cero."
+      },
+      {
+        "id": 16,
+        "text": "Refresco de página web: ¿Ya tienes un sitio web y deseas mejorarlo?"
+      },
+      {
+        "id": 17,
+        "text": "Identidad visual digital: Creación de branding de tu marca pensando en el entorno digital."
+      }
+    ],
+
+    "services2Cards": [
+      {
+        "id": 18,
+        "text": "Diseño y código con concepto: Trabajamos con tus ideas para darles vida."
+      },
+      {
+        "id": 19,
+        "text": "Manejo de contenido: Te ayudamos a mantener el contenido de tu página actualizado y al día."
+      },
+      {
+        "id": 20,
+        "text": "Consultoría: Revisamos tu página y te damos acciones concretas sobre cómo mejorarla."
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Estaremos esperando tu llamada",
+
+    "contactCards": [
+      {
+        "id": 21,
+        "text": "hola@velascosa.com"
+      },
+      {
+        "id": 22,
+        "text": "Instagram: @velascosa__"
+      },
+      {
+        "id": 23,
+        "text": "Linkedin Velascosa"
+      }
+    ]
+  },
+
+  "articles": {
+    "title": "Si te interesa, estas son algunas cosas que tenemos en mente",
+
+    "articleCards": [
+      {
+        "id": 24,
+        "text": "La historia de Atlas"
+      },
+      {
+        "id": 25,
+        "text": "La página web como la nueva oficina"
+      },
+      {
+        "id": 26,
+        "text": "¿Cómo está construida esta página?"
+      }
+    ]
+  }
+}

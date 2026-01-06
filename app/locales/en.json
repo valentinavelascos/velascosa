@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "work": "Work",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Creating beautifully crafted websites",
+    "subtitle": "Web Design Agency located in Bogotá, Colombia",
+    "text": "If you please, move the mouse",
+    
+    "aboutUsCards": [
+      {
+        "id": 1,
+        "text": "Welcome to Velascosa"
+      },
+      {
+        "id": 2,
+        "text": "We've worked with clients in over 5 countries..."
+      },
+      {
+        "id": 3,
+        "text": "And with many industries including real estate, technology, the arts and many more."
+      },
+      {
+          "id": 4,
+          "text": "That's plenty considering we just started in 2025!"
+      }
+    ],
+
+    "weMakeGreatCards": [
+      {
+        "id": 5,
+        "text": "We are a small team that works closely with each client to bring your unique story to life."
+      },
+      {
+        "id": 6,
+        "text": "Making websites for others is not only our passion, it's what we see as a necesity as we become more digital."
+      },
+      {
+        "id": 7,
+        "text": "Great websites come to be from willingness to try something new and come out of the mold."
+      },
+      {
+          "id": 8,
+          "text": "Web design can elevate your digital presence and make your identity more memorable and full."
+      },
+      {
+          "id": 9,
+          "text": "Sites today look more and more alike due to the rise of cookie cutter templates. We strive for uniqueness."
+      }
+    ]  
+  },
+
+  "work": {
+    "title": "A website is not just a website, it's the opening to your story.",
+
+    "workCards": [
+      {
+        "id": 10,
+        "text": "And our work in progress"
+      },
+      {
+        "id": 11,
+        "text": "humbertopolar.com"
+      },
+      {
+        "id": 12,
+        "text": "*IN PROGRESS* Global Circuit"
+      },
+      {
+          "id": 13,
+          "text": "jorgeorlandomelo.com"
+      },
+      {
+          "id": 14 ,
+          "text": "*IN PROGRESS* Siete Lomas"
+      }
+    ]
+  },
+
+  "services": {
+    "title": "Our Services include",
+    "subtitle": "We are here to help you become digital", 
+
+    "services1Cards": [
+      {
+        "id": 15,
+        "text": "Website building: We create your ideal website from the ground up."
+      },
+      {
+        "id": 16,
+        "text": "Website refresh: Already have a website and wish to make it better?"
+      },
+      {
+        "id": 17,
+        "text": "Digital first branding: Crafting a brand's identity natively for the digital space."
+      }
+    ],
+
+    "services2Cards": [
+      {
+          "id": 18,
+          "text": "Design and code with concept: We work with your ideas to bring them to life."
+      },
+      {
+          "id": 19,
+          "text": "CMS: We help you manage the content on your website, keeping it up to date."
+      },
+      {
+          "id": 20,
+          "text": "Consulting: We review your site and give you detailed actionables and feedback."
+      }
+    ]
+  },
+  
+  "contact": {
+    "title": "We hope you'll be in touch soon",
+
+    "contactCards": [
+        {
+          "id": 21,
+          "text": "hola@velascosa.com"
+        },
+        {
+          "id": 22,
+          "text": "Instagram: @velascosa__"
+        },
+        {
+          "id": 23,
+          "text": "Linkedin Velascosa"
+        }
+      ]
+  },
+  
+  "articles": {
+    "title": "Read some of the things that are on our minds",
+
+    "articleCards": [
+      {
+        "id": 24,
+        "text": "The Story of Atlas"
+      },
+      {
+        "id": 25,
+        "text": "The Website is the New Office"
+      },
+      {
+        "id": 26,
+        "text": "How Was This Website Made?"
+      }
+    ]
+  }
+}
