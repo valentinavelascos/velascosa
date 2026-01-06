@@ -50,7 +50,7 @@ export const cards = {
     },
     {
       id: 12,
-      image: "/images/work/global.png"
+      image: "/images/work/Global.png"
     },
     {
       id: 13,
